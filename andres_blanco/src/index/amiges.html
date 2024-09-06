@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            text-align: center; /* Centra todo el contenido del body */
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centra las imágenes horizontalmente */
+            gap: 10px; /* Espacio entre las imágenes */
+        }
+        .galeria img {
+            width: 200px; /* Establece el ancho de las imágenes */
+            height: 150px; /* Establece la altura de las imágenes */
+            object-fit: cover; /* Mantiene la proporción y recorta el exceso si es necesario */
+            border-radius: 5px; /* Opcional: añade bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Amigos</h1>
+    <div class="galeria">
+        <img src="imagenes/amigos1.jpeg" alt="Amigos 1">
+        <img src="imagenes/amigos2.jpeg" alt="Amigos 2">
+        <img src="imagenes/amigos3.jpeg" alt="Amigos 3">
+        <img src="imagenes/amigos4.jpeg" alt="Amigos 4">
+        <img src="imagenes/amigos5.jpeg" alt="Amigos 5">
+        <img src="imagenes/amigos6.jpeg" alt="Amigos 6">
+        
+    </div>
+</body>
+</html>

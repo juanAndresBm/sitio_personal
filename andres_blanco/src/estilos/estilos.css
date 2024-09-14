@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #13182B;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+
+
+h1 {
+    color: #cecbcb;
+    padding: 100px;
+    text-align: center;      
+    font-size: 150px;
+    margin-bottom: auto;
+    
+}
+h2 {
+    color: #cecbcb;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: #CD5474;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+p {
+    font-size: 100px;
+    color: #cecbcb;
+    text-align: center;
+    
+    background-color: #CD5474;
+    border-radius: 30px;
+    padding: 15px;
+}
+nav {
+    
+    text-align: center;
+    font-size: 50px;
+
+   
+}
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 30px;
+
+}
+
+nav li {
+    margin-bottom: 10px; 
+    padding: 50px;
+    
+    
+}
+nav a {
+    text-decoration: none; 
+    color: #cecbcb;   
+    background-color: #CD5474; 
+    border-radius: 30px;    
+    padding: 20px;
+}
+.gustos {
+    display: flex;
+    justify-content: center;
+    text-decoration:none;
+    
+}
+.gusto {
+    padding: 20px;
+    color: #cecbcb;
+    margin-bottom: 20px;
+}
+
+    
+.imagenjuegos {
+    width: 1600px;
+    height: 2000px;
+    padding: 20px;
+    
+}
+.imagenmusica {
+    width: 2000px;
+    height: 2000px;
+    padding: 50px;
+}
+.volver { 
+    text-decoration: none;
+    text-align: center;
+    font-size: 60px;
+    background-color: #CD5474;
+    padding: 25px;
+    border-radius: 60px;
+    margin: 60px;
+    color: #cecbcb;
+    cursor: pointer;
+    
+
+}
+.imahoobies {
+    width: 3000px;
+    height: 1600px;
+    padding: 50px;
+}
+.imagenvertical{
+    width: 1200px;
+    height: 2000px;
+    padding: 50px;  
+}
+.imagenamig{
+    width: 3000;
+    height: 1600px;
+    padding: 50px;
+
+}

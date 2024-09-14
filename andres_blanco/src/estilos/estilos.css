@@ -39,6 +39,7 @@ p {
     
     background-color: #CD5474;
     border-radius: 30px;
+    margin: 60px;
     padding: 15px;
 }
 nav {
@@ -99,7 +100,7 @@ nav a {
     background-color: #CD5474;
     padding: 25px;
     border-radius: 60px;
-    margin: 60px;
+    margin: 70px;
     color: #cecbcb;
     cursor: pointer;
     
@@ -120,4 +121,12 @@ nav a {
     height: 1600px;
     padding: 50px;
 
+}
+.footer {
+    color: #cecbcb;
+    text-align: left;
+    margin-bottom: 60px;
+    background-color: #CD5474;
+    border-radius: 30px;
+    padding: 15px;
 }

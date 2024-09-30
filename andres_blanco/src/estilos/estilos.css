@@ -18,11 +18,11 @@ body {
     
 }
 header {
-    background-color: #CD5474;
-    color: #cecbcb;
+    
+    color: #000000;
     font-size: 150px;
-    padding: 200px;
-    text-align: start;
+    padding: 150px;
+    text-align: left;
     background-image: url(./../imagenes/fotoprincipal.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,12 +34,13 @@ header {
 
 
 h1 {
-    color: #cecbcb;
-    padding: 50px;
-    text-align: center;      
+    color:#CD5474 ;
+    text-align: center ;      
     font-size: 150px;
-    margin-bottom: auto;
-    background-color: #CD5474;
+    
+    
+    
+
     
     
     
@@ -49,7 +50,7 @@ h2 {
     padding: 150px;
     border-radius: 60px;
     text-align: center;
-    font-size: 60px;
+    font-size: 150px;
     margin-bottom: auto;
     
     
@@ -61,28 +62,34 @@ p {
     color: #cecbcb;
     text-align: center;
     background-color: #CD5474;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 15px;
+    padding: 50px;
+    
+    
+   
+   
+    
 }
 nav {
     
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
+    padding: 2%, 1%;
     
 
    
 }
 nav ul {
     list-style-type: none; 
-    padding: 0;
+    padding: 0; 
     margin: 30px;
+    font-size: 100px;
 
 }
 
 nav li {
     margin-bottom: 10px; 
     padding: 50px;
+    font-size: 100px;
     
     
 }
@@ -120,13 +127,14 @@ nav a {
 .volver { 
     text-decoration: none;
     text-align: center;
-    font-size: 60px;
+    
     background-color: #CD5474;
     padding: 25px;
     border-radius: 60px;
     margin: 70px;
     color: #cecbcb;
     cursor: pointer;
+    font-size: 100px;
     
 
 }
@@ -146,11 +154,12 @@ nav a {
     padding: 50px;
 
 }
-.footer {
+footer {
     color: #cecbcb;
-    text-align: left;
+    text-align: center;
+    font-size: 200px;
     margin-bottom: 60px;
     background-color: #CD5474;
     border-radius: 30px;
-    padding: 15px;
+    padding: 150px;
 }

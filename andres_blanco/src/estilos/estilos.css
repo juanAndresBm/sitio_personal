@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #13182B;
     
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    background-color: #13182B;
+    background-image: url(./../imagenes/fondo_principal.web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+    
     
 }
 
@@ -46,6 +53,7 @@ nav {
     
     text-align: center;
     font-size: 50px;
+    
 
    
 }

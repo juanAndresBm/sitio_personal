@@ -129,14 +129,17 @@ nav a {
 .volver { 
     text-decoration: none;
     text-align: center;
-    
     background-color: #CD5474;
     padding: 25px;
     border-radius: 60px;
-    margin: 100px;
+    
     color: #cecbcb;
     cursor: pointer;
     font-size: 100px;
+    position: static;
+    bottom: 10;
+    
+
     
 
 }

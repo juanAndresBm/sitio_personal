@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.ejercicio1{
+    background:purple;
+    height: auto;
+    padding:60px;
+}
+.ejercicio1 h2{
+    text-align: center;
+    color:white;
+    margin-bottom: 40px;
+}
+.ejercicio1 .card1{
+    width: 410px;
+    background: white;
+    border-radius:30px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:40px;
+    gap:23px;
+}
+.ejercicio1 .card1 img{}
+.ejercicio1 .card1 .datos_carga{
+    padding-bottom:11px;
+}
+.ejercicio1 .card1 .datos_carga p:nth-child(1){
+    color:rgba(109, 37, 185, 1);
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+    text-edge:cap;
+}
+.ejercicio1 .card1 .datos_carga p:nth-child(2){
+    font-size: 18px;
+    color:rgba(124, 118, 126, 1);
+    text-align: center;
+}
+
+.ejercicio1 .card1 .lista_archivos{
+    padding-bottom: 21px;
+    list-style:none;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+.ejercicio1 .card1 .lista_archivos li{
+    margin-bottom: 4px;
+}
+.ejercicio1 .card1 button{
+    padding: 14px 30px;
+    background: rgba(115, 39, 228, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    width: 131px;
+    margin: 0 auto;
+}
+
+
+.ejercicio2{
+    background: gray;
+    padding:40px;
+}
+.card2 {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+}
+.card2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+.card2 ul li{
+margin-right:10px;
+}
+.card2 ul li button{
+display: block;
+width: 10px;
+height: 10px;
+background: darkgray;
+border:0;
+border-radius: 50%;
+text-indent:-9999px;
+}
+.card2 ul li .activo{
+background: gray;
+}

@@ -19,7 +19,7 @@ body {
 }
 header {
     
-    color: #000000;
+    color: #CD5474;
     font-size: 150px;
     padding: 150px;
     text-align: left;
@@ -63,6 +63,8 @@ p {
     text-align: center;
     background-color: #CD5474;
     padding: 50px;
+    border-radius: 80px;
+    margin-bottom: auto;
     
     
    
@@ -131,7 +133,7 @@ nav a {
     background-color: #CD5474;
     padding: 25px;
     border-radius: 60px;
-    margin: 70px;
+    margin: 100px;
     color: #cecbcb;
     cursor: pointer;
     font-size: 100px;
@@ -155,15 +157,15 @@ nav a {
 
 }
 .iconos {
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     
     
 }
 footer {
     
     color: #cecbcb;
-    text-align: right;
+    text-align: center;
     font-size: 80px;
     text-decoration: none;
     margin-bottom: 60px;

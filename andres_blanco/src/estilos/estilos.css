@@ -154,12 +154,24 @@ nav a {
     padding: 50px;
 
 }
+.iconos {
+    width: 80px;
+    height: 80px;
+    
+    
+}
 footer {
+    
     color: #cecbcb;
-    text-align: center;
-    font-size: 200px;
+    text-align: right;
+    font-size: 80px;
+    text-decoration: none;
     margin-bottom: 60px;
     background-color: #CD5474;
     border-radius: 30px;
-    padding: 150px;
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
 }

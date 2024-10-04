@@ -1,0 +1,149 @@
+/*RESETEO*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*REGLAS GENERALES*/
+body {
+    font-family: sans-serif;
+    color: #666;
+    background: black;
+}
+
+h1 {
+    font-size: 50rem;
+    margin-bottom: .5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: .3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: .2rem;
+}
+figure{
+    background: #000;
+    display: inline-block;
+    padding: 10px;
+}
+figcaption {
+    text-transform: uppercase;
+    font-size: .6rem;
+    margin: 1em 0;
+    letter-spacing: .2em;
+    width: 100%;
+}
+img{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+/*EJEMPLOS GRID CSS*/
+.grilla {
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+
+    /* GRID TEMPLATE AREAS NOS PERMITE ESTABLECER UNA PLANTILLA
+    PARA LA DISTRIBUCION DE FILAS Y COLUMNAS */
+  /*   grid-template-areas:    
+    "header header header aside aside"
+    "main main main aside aside"
+    "footer footer footer aside aside"
+    ; */
+}
+
+.grilla div {
+    background-color: #3bc206;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: 1px solid #000;
+}
+.grilla div:nth-child(1){
+    background-color:#f7eb09;
+/*     grid-area:header;
+
+ */
+    grid-column:2/5;
+    grid-row:1/3;
+}
+.grilla div:nth-child(2){
+    background-color: #f52828;
+/*     grid-area:main;
+ */
+ grid-column: 4/6;
+ grid-row:4/5;
+}
+.grilla div:nth-child(3){
+    background-color: #215ce5;
+/*     grid-area:aside;
+ */}	
+.grilla div:nth-child(4){
+    background-color: #b81395;
+/*     grid-area:footer;
+ */}
+
+/*REGLAS ABSTRACTO.HTML*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e1e1e1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 100px;
+    grid-template-areas: 
+
+    "header header header"
+    "main main aside"
+    "footer footer footer"
+    ;    
+}
+.container header{
+    grid-area:header;
+    padding: 30px 40px 60px 40px ;
+}
+.container header h1{
+    color: #171717;
+    font-weight: normal;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+}
+.container main{
+    grid-area:main;
+}
+.container main section::after{
+    content: "";
+    display: block;
+    height: 20px;
+    background-image: url(../imgs/bauhaus.png) ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    margin: 20px 0 40px 0;
+}
+
+.container main section:nth-child(2) figure{
+    float: right;
+    margin:0 0 10px 20px;
+}
+
+
+
+.container aside{
+    grid-area:aside;
+}
+.container footer{
+    grid-area:footer;
+}
+
